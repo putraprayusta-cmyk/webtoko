@@ -1,0 +1,188 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.banner-burger {
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.banner-burger span {
+  color: #d4af37;
+  letter-spacing: 3px;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+  padding: 10px 25px;
+}
+
+.btn-gold:hover {
+  background-color: #b8962e;
+  color: white;
+}
+
+body {
+  background-color: #111;
+}
+
+.menu-section {
+  background-color: #111;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+}
+
+.btn-gold:hover {
+  background-color: #b8962e;
+  color: white;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.promo-section {
+  background-color: #0f0f0f;
+}
+
+.promo-card {
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.promo-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+}
+
+.btn-gold:hover {
+  background-color: #b8962e;
+  color: white;
+}
+
+.about-section {
+  background-color: #111;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+}
+
+.btn-gold:hover {
+  background-color: #b8962e;
+  color: white;
+}
+
+.reservation-section {
+  background-color: #111;
+}
+
+.reservation-form {
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+}
+
+.form-control:focus {
+    outline: none;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  border-color: #d4af37;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+}
+
+.btn-gold:hover {
+  background-color: #b8962e;
+  color: white;
+}
+
+.review-section {
+  background-color: #0f0f0f;
+}
+
+.review-card {
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.review-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+}
+
+.subscribe-section {
+  background-color: #111;
+  border-top: 1px solid #d4af37;
+}
+
+.subscribe-box {
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+.subscribe-box input:focus {
+  box-shadow: none;
+  color: white;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: black;
+  border: none;
+  padding: 8px 20px;
+}
+
+.btn-gold:hover {
+  background-color: #b8962e;
+  color: white;
+}
+
+.contact-section {
+  background-color: #0f0f0f;
+  border-top: 1px solid #d4af37;
+}
+
+.contact-section h2 {
+  letter-spacing: 2px;
+}
+
+.nav-link:hover {
+  color: #d4af37 !important;
+}
+
+.dropdown-menu-dark {
+  background-color: #111;
+}
+
+.dropdown-item:hover {
+  background-color: #d4af37;
+  color: black;
+}
